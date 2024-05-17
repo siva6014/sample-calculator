@@ -6,7 +6,7 @@ int main()
     printf("Enter two numbers");
     scanf("%d %d",&num1, &num2);
     
-    result = num1 + num2;
+    result = num1 - num2;
 
     printf("%d",result);
     return 0;
