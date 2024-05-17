@@ -11,6 +11,9 @@ int main()
     mul = num1 * num2;
     DIV = num1/num2;
 
+    //commernts of the fllowinthe cide ahmed 
+    //hellow people we are leasrning the new thing 
+
     printf("Addition of numbers %d",add);
     printf("Subtraction of numbers %d",subb);
     printf("Multiplication of numbers %d",mul);
