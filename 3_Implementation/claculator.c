@@ -6,12 +6,12 @@ int main()
     printf("Enter two numbers");
     scanf("%d %d",&num1, &num2);
 
+    // new comment
+
     add = num1 + num2;
     subb = num1 - num2;
     mul = num1 * num2;
     DIV = num1/num2;
-
-    // santosh
 
     printf("Addition of numbers %d",add);
     printf("Subtraction of numbers %d",subb);

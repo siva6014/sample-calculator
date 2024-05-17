@@ -1,12 +1,14 @@
-#include <stdio.h>
-int main()
-{
-   int num1 ,num2,result;
-   printf("Enter the numbers:  " " ");
-   scanf("%d %d",&num1,&num2);
-   result = num1 / num2;
-   printf("Sum of %d and %d is %d\n",num1 ,num2,result);
-   
-   
-    return 0;
+ #include <stdio.h>
+int main() {
+    int num;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+    // true if num is perfectly divisible by 2
+    if(num % 2 == 0)
+        printf("%d is even.", num);
+    else
+        printf("%d is odd.", num);
+    
+    return 0;
 }
